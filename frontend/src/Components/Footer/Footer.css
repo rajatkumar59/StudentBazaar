@@ -1,0 +1,176 @@
+footer {
+  background-color: #131313;
+}
+.footer1 {
+  display: flex;
+  flex-direction: column;
+}
+.logo2 {
+  font-family: Roboto;
+  font-size: 50px;
+  color: #df4e4e;
+}
+.names {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.content1 {
+  display: flex;
+  gap: 40px;
+  font-family: Robotosimple;
+}
+
+li {
+  list-style: none;
+}
+
+.footer1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.item10 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: white;
+}
+
+.LinksBelow {
+  display: flex;
+  align-items: row;
+  justify-content: space-between;
+  margin-top: 1%;
+}
+
+.handles {
+  display: flex;
+  gap: 3vw;
+  margin-right: 15px;
+}
+
+.copyrights {
+  margin-left: 2%;
+  font-size: 9px;
+  color: rgb(148, 59, 20);
+  margin-bottom: 1%;
+}
+
+.fa {
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+#line {
+  background-color: #d54242;
+  margin-top: 25px;
+  color: #d54242;
+}
+
+.line-lower-footer hr {
+  height: 2px;
+  background-color: red;
+  border: none;
+}
+
+/* .handles{
+   margin-right: 100px; 
+   gap: 50px;
+
+} */
+.logo2 {
+  font-weight: 600;
+}
+
+.text-below-footer {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+}
+
+@media (max-width: 820px), only screen and (width: 912px) and (height: 1368px) {
+  .content1 {
+    gap: 20px;
+  }
+
+  /* .handles{
+      margin-left: 100px;
+      gap: 100px;
+} */
+  .fa-whatsapp,
+  .fa-telegram,
+  .fa-linkedin,
+  .fa-instagram {
+    font-size: 22px;
+  }
+
+  .text-below-footer {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+  }
+
+  .logo2 {
+    font-size: 20px;
+    /* margin-left: 7%; */
+  }
+
+  /* .logo2 span {
+    margin-left: 5px;
+  } */
+
+  .item10 {
+    line-height: 1.6;
+    font-size: 15px;
+    color: white;
+  }
+  .LinksBelow {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .handles {
+    gap: 15px;
+  }
+  .right-image {
+    width: 100%;
+  }
+}
+@media (max-width: 386px) {
+  .logo2 {
+    font-size: 10px;
+  }
+  .handles {
+    margin-left: 0;
+  }
+
+  .fa-whatsapp,
+  .fa-telegram,
+  .fa-linkedin,
+  .fa-instagram {
+    font-size: 15px;
+    gap: 15px;
+  }
+
+  .text-below-footer {
+    font-size: 10px;
+    line-height: 0.5rem;
+    font-weight: 500;
+  }
+
+  .item10 {
+    font-size: 10px;
+  }
+
+  .text-xl {
+    font-size: 0.5rem;
+    line-height: 1rem;
+  }
+}
